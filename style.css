@@ -2,8 +2,55 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
+h1 {
+    font-size: 50px;
+    color: #3a3a3a;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img {
+    width: 85%;
+}
+
+.main-color {
+    color: #13B6FC;
+}
+
+.link-button {
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(#A5D4EE, #13B6FC);
+    color: #1e1e1e;
+    font-weight: 700;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Header Section Style Start */
+.profile-info {
+    padding-top: 110px;
+}
+
+.profile-info p {
+    font-size: 18px;
+    color: #828282;
+}
+
+/* Header Section Style End */
 
 
 
