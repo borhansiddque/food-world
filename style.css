@@ -56,12 +56,48 @@ section {
 
 /* Header Section Style End */
 
+/* About Section Style Start */
 .about-me {
     background-image: url(images/about-me-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* About Section Style End */
 
+/* Recipes Section Style Start */
+.recipe-info {
+    text-align: center;
+}
+
+.recipe-info p{
+    width: 470px;
+    display: inline-block;
+    font-size: 18px;
+    color: #828282;
+}
+
+.food-item {
+    margin-top: 40px;
+}
+
+.food-items {
+    width: 20%;
+    margin-left: 9%;
+    box-shadow: 10px 10px 30px #999;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.food-items img{
+    width: 100%;
+}
+
+.food-items p{
+    font-size: 18px;
+    color: #828282;
+}
+
+/* Recipes Section Style End */
 
 
 
