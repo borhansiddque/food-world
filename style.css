@@ -12,6 +12,10 @@ h1 {
     margin-bottom: 0;
 }
 
+section {
+    margin-bottom: 120px;
+}
+
 .flex-container {
     display: flex;
 }
@@ -22,7 +26,7 @@ h1 {
 }
 
 .half-width img {
-    width: 85%;
+    width: 75%;
 }
 
 .main-color {
@@ -32,12 +36,12 @@ h1 {
 .link-button {
     display: inline-block;
     text-decoration: none;
-    background-image: linear-gradient(#A5D4EE, #13B6FC);
+    background-image: linear-gradient(to left,#A5D4EE, #13B6FC);
     color: #1e1e1e;
     font-weight: 700;
     padding: 10px 30px;
     margin-top: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /* Header Section Style Start */
@@ -52,7 +56,11 @@ h1 {
 
 /* Header Section Style End */
 
-
+.about-me {
+    background-image: url(images/about-me-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
