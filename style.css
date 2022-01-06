@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 body {
     font-family: 'Lato', sans-serif;
@@ -36,7 +36,7 @@ section {
 .link-button {
     display: inline-block;
     text-decoration: none;
-    background-image: linear-gradient(to left,#A5D4EE, #13B6FC);
+    background-image: linear-gradient(to left,#00a4ff, #13B6FC);
     color: #1e1e1e;
     font-weight: 700;
     padding: 10px 30px;
@@ -83,7 +83,7 @@ section {
 .food-items {
     width: 20%;
     margin-left: 9%;
-    box-shadow: 10px 10px 30px #999;
+    box-shadow: 10px 10px 30px #c7c7c7;
     border-radius: 20px;
     padding: 15px;
 }
@@ -92,13 +92,52 @@ section {
     width: 100%;
 }
 
-.food-items p{
+.food-items p,
+.social-item p{
     font-size: 18px;
     color: #828282;
 }
 
 /* Recipes Section Style End */
 
+/* Social item Section Style Start */
+
+.social-followers {
+    box-shadow: 10px 10px 30px #c7c7c7;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.social-item {
+    width: 20%;
+    margin-left: 9%;
+}
+
+.social-item h3{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/* Social item Section Style End */
+
+/* Footer section Style Start */
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+footer h2{
+    color: #5B5B5B;
+}
+
+footer p{
+    color: #acacac;
+}
+
+/* Footer section Style End */
 
 
 
